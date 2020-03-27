@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.6](https://github.com/paritytech/txwrapper/compare/v1.2.5...v1.2.6) (2020-03-27)
+
+### [1.2.3](https://github.com/paritytech/txwrapper/compare/v1.2.2...v1.2.3) (2020-03-27)
+
+
+### Bug Fixes
+
+* add westend prefix ([#96](https://github.com/paritytech/txwrapper/issues/96)) ([fa7699e](https://github.com/paritytech/txwrapper/commit/fa7699e078a7ae7555c5130398d21b0297b107b1))
+
 ### [1.2.3](https://github.com/paritytech/txwrapper/compare/v1.2.2...v1.2.3) (2020-03-27)
 
 
