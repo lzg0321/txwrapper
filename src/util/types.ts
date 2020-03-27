@@ -1,3 +1,4 @@
+import { TypeRegistry } from '@polkadot/types';
 import { SignerPayloadJSON } from '@polkadot/types/types';
 
 /**
@@ -15,6 +16,10 @@ export interface UnsignedTransaction extends SignerPayloadJSON {
  * JSON format for information that is common to all transactions.
  */
 export interface BaseTxInfo {
+  /**
+   * registry
+   */
+  registry?: TypeRegistry,
   /**
    * The ss-58 encoded address of the sending account.
    */
