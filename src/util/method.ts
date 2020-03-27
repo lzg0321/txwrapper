@@ -57,6 +57,7 @@ export function createMethod(
 ): UnsignedTransaction {
   const { metadata: metadataRpc, registry } = sanitizeOptions({
     metadata: info.metadataRpc,
+    registry: info.registry,
     ...options
   });
   const metadata = new Metadata(registry, metadataRpc);
