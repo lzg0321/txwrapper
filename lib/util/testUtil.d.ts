@@ -98,6 +98,9 @@ export declare const TEST_METHOD_ARGS: {
         setController: {
             controller: string;
         };
+        setPayee: {
+            payee: string;
+        };
         unbond: {
             value: number;
         };
