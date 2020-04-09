@@ -8,3 +8,4 @@ export * from './setController';
 export * from './unbond';
 export * from './validate';
 export * from './withdrawUnbonded';
+export * from './setPayee';
